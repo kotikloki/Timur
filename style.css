@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #fcf8f2;
+color: #333;
+}
+
+                  
+header {
+background-color: #ff9f1c;
+color: white;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+
+.hero {
+    background-image: linear-gradient(#ff9f1c,#fcf8f2);
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.hero h1 {
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.btn {
+display: inline-block;
+background-color: #ff9f1c;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+
+.menu-section {
+padding: 40px 20px;
+text-align: center;
+}
+
+.pizza-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.pizza-card {
+background: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+width: 250px;
+padding: 20px;
+text-align: center;
+}
+
+.pizza-img {
+font-size: 60px;
+margin-bottom: 15px;
+}
+
+.pizza-card h3 {
+margin: 10px 0;
+}
+.pizza-card p {
+font-size: 14px;color: #666;
+height: 45px;
+}
+
+.price {
+display: block;
+font-size: 18px;
+font-weight: bold;
+color: #e71d36;
+margin: 15px 0;
+}
+.buy-btn {
+background-color: #f7690a;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+width: 100%;
+}
+
+.buy-btn:hover {
+background-color: #ff9f1c;
+}
+
+
+footer {
+    display: block;
+    background-color: #011627;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;             
+}
+
+
+.cake-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;   
+}
+.cake-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;             
+}
+
+
+.cake-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center; 
+}                  
+.cake-img {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.cake-card h3 {
+    margin: 10px 0;
+}
+.cake-card p {
+    font-size: 14px;color: #666;
+    height: 45px;
+}
+main h1 {
+    text-align: center;
+}
+main p{
+    height: 60px;
+    font-size: 30px;
+}
+
+p{
+    padding: 20px;
+}
+section p{
+    font-size:23px;
+    height: 20px;
+}
